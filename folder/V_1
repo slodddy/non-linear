@@ -1,0 +1,21 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> &#127826 On Cherries </title>
+        <link rel="stylesheet" href="style.css">
+  </head>  
+  
+  <body>
+ <div class="achtergrond">
+<div class="row">
+  <div class="col-2">hallo</div> 
+  <div class="col-3">hallo</div> 
+<h1 class= "titel">
+  Cherry!
+   </h1>
+    </div>
+    </div>
+  
+  </body>
+</html>

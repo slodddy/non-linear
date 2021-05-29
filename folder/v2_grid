@@ -1,0 +1,70 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> &#127826 On Cherries </title>
+        <link rel="stylesheet" href="style.css">
+  </head>  
+  
+  <body>
+<div class="row">
+  <div class="col-1"> </div> 
+
+  <div class="col-4"><div class="achtergrond-left">
+    <p>
+       Hallo! Type ik nu op de achtergrond? 
+      <br><br>   <br><br>   <br><br> TYP YPYP 
+         <br><br>   <br><br> TYPPP
+     </p></div> 
+<h1 class= "titel">
+  Cherry!
+   </h1>
+    </div>
+    </div>
+  
+  </body>
+</html>
+
+
+
+
+{
+  box-sizing: border-box;
+}
+
+#achtergrond {
+background-image: url('https://cdn.glitch.com/1058ffa4-89f3-441a-a9dc-a8c1ac3194ba%2Fpaginas.png?v=1622197454883');
+repeat: no-repeat;
+width: 100%;
+top: 10%;
+background-right: 20%;
+width: 600px;
+Position: absolute; }
+
+.achtergrond-left {
+background-image: url('https://cdn.glitch.com/1058ffa4-89f3-441a-a9dc-a8c1ac3194ba%2Flinks-test1.png?v=1622284331362');
+background-repeat: no-repeat;
+height: 1000px; 
+size: 
+margin:center;
+background-Position: absolute; }
+    
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+      
+[class*="col-"] {
+  float: left;
+  padding: 0px;
+  border: 1px solid red;
+  height: 
+}
