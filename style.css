@@ -52,11 +52,21 @@ width: 50%;
       }
       
 .left-text {
+font-size: 20px;
 color: red;  
 padding-left: 40%;
 padding-top: 10%
       }
-      
+.title { 
+font-family: 'Grenze Gotisch';
+font-weight: 700;
+font-size: 20px;
+color: red; }
+
+p { 
+font-family: 'Grenze Gotisch';
+font-weight: 300;}
+
 right { 
 background-image: url("https://cdn.glitch.com/1058ffa4-89f3-441a-a9dc-a8c1ac3194ba%2FRIGHT.png?v=1622285883310");
 background-repeat: no-repeat; 
@@ -76,20 +86,21 @@ header {
 padding: 50px;
 text-align: center;
 font-size: 35px;
+font-weight: bold;
 color: red; }
 
 <-- Recipe --> 
 
-    .recipe-block {
+.recipe-block {
 float: left; 
-width: 500px; height: 500px;
+width: 300px; height: 400px;
 position: relative;
 top: 380px; left: 300px;
 border-style: solid;
 border-width: thick;
+color: red 10px;
 background-color: white;
 padding: 30px;
-color: red 10px;
     }
     
 .recipe-photo {
