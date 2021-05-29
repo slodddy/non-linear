@@ -1,0 +1,99 @@
+<-- styles for the index screen --> 
+
+{
+
+}
+
+ .notitieboek {
+width: 100%
+float: right;
+position: absolute;
+top: 10%;
+right: 20%;
+width: 600px;
+height: 800px;
+display: inline-block;
+    }
+
+.notitieboek .notitieboek-top {
+display: none;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 99;
+    }
+
+.notitieboek:hover .notitieboek-top {
+display: inline;
+    }
+
+h1 { 
+padding-top: 40%;
+padding-left: 10%; 
+position: absolute;
+color: red;
+}
+
+<-- styles for home screen --> 
+  
+      
+section {
+width: 100%; 
+float: left; }
+
+ 
+left { 
+background-image: url("https://cdn.glitch.com/1058ffa4-89f3-441a-a9dc-a8c1ac3194ba%2Flinks-test1.png?v=1622284331362");
+background-repeat: no-repeat; 
+background-position: right;
+height: 800px; 
+float: left; 
+width: 50%;
+      }
+      
+.left-text {
+color: red;  
+padding-left: 40%;
+padding-top: 10%
+      }
+      
+right { 
+background-image: url("https://cdn.glitch.com/1058ffa4-89f3-441a-a9dc-a8c1ac3194ba%2FRIGHT.png?v=1622285883310");
+background-repeat: no-repeat; 
+height: 800px; 
+float: left; 
+Left: 10%;
+width: 50%;}
+
+.right-text {
+color: red;  
+padding-left: 14%;
+padding-top: 10%; 
+font-size: 6px;
+      }
+  
+header {
+padding: 50px;
+text-align: center;
+font-size: 35px;
+color: red; }
+
+<-- Recipe --> 
+
+    .recipe-block {
+float: left; 
+width: 500px; height: 500px;
+position: relative;
+top: 380px; left: 300px;
+border-style: solid;
+border-width: thick;
+background-color: white;
+padding: 30px;
+color: red 10px;
+    }
+    
+.recipe-photo {
+background-image: url("https://cdn.glitch.com/1058ffa4-89f3-441a-a9dc-a8c1ac3194ba%2Fditherit%20cherry.png?v=1622291508265");
+background-repeat: no-repeat; 
+top: 10; 
+}
