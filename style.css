@@ -1,5 +1,25 @@
+/* Lotte Verkaik */ 
+/* I think this is a source code comment */ 
 <-- styles for the index screen --> 
 
+a:link {
+  color: red;
+  text-decoration: underline;
+}
+a:visited {
+  color: red;
+  text-decoration: underline;
+}
+
+a:hover {
+   color: red;
+  text-decoration: none;
+}
+
+a:active {
+  color: red;
+  text-decoration: none;
+}
 {
 
 }
@@ -34,7 +54,11 @@ position: absolute;
 color: red;
 }
 
-<-- styles for home screen --> 
+p, p2, h2 { 
+color: red; 
+} 
+
+/*homescreen*/
   
       
 section {
@@ -49,23 +73,46 @@ background-position: right;
 height: 800px; 
 float: left; 
 width: 50%;
+  
       }
       
 .left-text {
-font-size: 20px;
-color: red;  
-padding-left: 40%;
-padding-top: 10%
+padding-left: 39%;
+padding-top: 7%
       }
-.title { 
-font-family: 'Grenze Gotisch';
+
+.left-cherry {
+color: red;  
+padding-left: 14%;
+padding-top: 3%;
+font-size: 6px;
+      }
+
+p2 {
+font-family: Grenze Gotisch;
 font-weight: 700;
 font-size: 20px;
-color: red; }
+color: red;
+font-align: center;}
+
+p4 {
+font-family: Grenze Gotisch;
+font-weight: 300;
+font-size: 20px;
+color: red;
+font-align: center;}
+
+p3{
+font-family: Grenze Gotisch;
+font-weight: 500;
+font-size: 17px;
+color: red;
+font-align: center;}
 
 p { 
-font-family: 'Grenze Gotisch';
-font-weight: 300;}
+font-family:Poppins ;
+font-weight: 300;
+Font-size: 13px;}
 
 right { 
 background-image: url("https://cdn.glitch.com/1058ffa4-89f3-441a-a9dc-a8c1ac3194ba%2FRIGHT.png?v=1622285883310");
@@ -73,13 +120,11 @@ background-repeat: no-repeat;
 height: 800px; 
 float: left; 
 Left: 10%;
-width: 50%;}
+width: 50%; }
 
 .right-text {
-color: red;  
-padding-left: 14%;
-padding-top: 10%; 
-font-size: 6px;
+padding-left: 13%;
+padding-top: 7%
       }
   
 header {
@@ -87,24 +132,96 @@ padding: 50px;
 text-align: center;
 font-size: 35px;
 font-weight: bold;
-color: red; }
+color: red;}
 
-<-- Recipe --> 
+/*recipe*/
 
-.recipe-block {
+    
+    .recipe-block {
 float: left; 
-width: 300px; height: 400px;
+left: 30%;
+width: 400px; height: 400px;
 position: relative;
-top: 380px; left: 300px;
+top: 450px; left: 250px;
 border-style: solid;
-border-width: thick;
-color: red 10px;
+border-width: 10px;
+border-color: red; 
 background-color: white;
 padding: 30px;
+color: red 10px;
+font-color: red;
     }
     
-.recipe-photo {
+   .recipe-photo {
 background-image: url("https://cdn.glitch.com/1058ffa4-89f3-441a-a9dc-a8c1ac3194ba%2Fditherit%20cherry.png?v=1622291508265");
-background-repeat: no-repeat; 
-top: 10; 
+background-size: cover;
+  float: left;
+width: 1200px; 
+height: 800px; 
+padding-top: 100px; right: 20px; 
+
+} 
+
+    th, td {
+  color: red;
+  font-size: 14px;
+  width: 69%;
+  padding: 2px;
+  text-align: center;
 }
+
+/*playlist*/
+
+#cowboy, #cocteautwins, #runaways { 
+width: 325px;
+height: 325px;
+border: 5px solid white;
+ ;}
+
+#cocteautwins {
+Position: absolute;
+top: 30%; 
+Right: 10%;
+width: 325px;
+height: 325px;
+border: 5px solid white;
+     }
+#cowboy {
+position: absolute;
+top: 30%; 
+left: 10%;
+width: 325px;
+height: 325px;
+border: 5px solid white;
+     }
+     
+#runaways {
+position: absolute;
+top: 30%; 
+left: 40%; 
+width: 325px;
+height: 325px;
+border: 5px solid white;
+     }
+
+/*poem*/
+
+.poemheader { 
+padding: 50px;
+text-align: center;
+font-size: 35px;
+font-weight: bold;
+color: white; 
+font-size: 12px; 
+}   
+      
+.poem1 {
+background: red;
+Padding-top: 10%;
+width: 100%;
+font-size: 37px; 
+color: white; 
+font-family: Roboto Mono; 
+font-style: italic; 
+font-weight: medium;
+      } 
